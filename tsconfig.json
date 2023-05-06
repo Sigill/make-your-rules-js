@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "lib": [
+      "es2021",
+      "dom"
+    ],
+    "target": "es2021",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+  },
+  "files": [
+    "src/index.ts",
+    "src/makefile.ts",
+    "src/ninja.ts",
+    "src/utils.ts",
+    "src/writable.ts",
+  ],
+  "exclude": [
+    "./dist/**/*"
+  ]
+}

@@ -1,0 +1,4 @@
+# treat compiled javascript files as binary
+dist/*.js binary
+dist/*.js.map binary
+dist/*.d.ts binary

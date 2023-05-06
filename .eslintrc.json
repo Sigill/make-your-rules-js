@@ -1,0 +1,23 @@
+{
+    "root": true,
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "ignorePatterns": ["dist/*"],
+    "env": {
+        "browser": true,
+        "es2016": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "@typescript-eslint/no-explicit-any": "off"
+    }
+}
